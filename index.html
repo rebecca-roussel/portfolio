@@ -58,11 +58,24 @@ header img:hover {
     }
 
 .section h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.2rem;
   color: #f0dca0;
   text-align: center;
-  margin-bottom: 1.5rem;
-  text-decoration: underline;
+  position: relative;
+  margin-bottom: 2rem;
 }
+
+.section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #f0dca0;
+  margin: 0.5rem auto 0;
+  opacity: 0.6;
+}
+
 
     .projet {
       background: #1a1a1a;
